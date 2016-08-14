@@ -65,27 +65,53 @@ header#header .thumbPage {
     content: '';
     display: block;
     clear: both; }
-  #novedades .novedadesCont1 {
-    position: relative;
-    height: 500px;
-    overflow: hidden;
-    padding-left: 0;
-    padding-right: 0; }
-    #novedades .novedadesCont1:after, #novedades .novedadesCont1:before {
-      content: '';
-      display: block;
-      clear: both; }
-    #novedades .novedadesCont1 .cardNew .cardHeader .cardThumb img {
-      width: 100%; }
-    #novedades .novedadesCont1 .cardNew .cardBody {
-      position: absolute;
-      bottom: 0;
-      background-color: #333;
-      padding-left: .9375rem;
-      padding-right: .9375rem; }
-      #novedades .novedadesCont1 .cardNew .cardBody:after, #novedades .novedadesCont1 .cardNew .cardBody:before {
+  @media screen and (min-width: 768px) {
+    #novedades .novedadesCont1 {
+      position: relative;
+      height: 500px;
+      overflow: hidden;
+      padding-left: 0;
+      padding-right: 0;
+      box-shadow: 0px 3px 3px rgba(100, 100, 100, 0.5); }
+      #novedades .novedadesCont1:after, #novedades .novedadesCont1:before {
         content: '';
         display: block;
         clear: both; }
+      #novedades .novedadesCont1 .cardNew .cardHeader .cardThumb img {
+        width: 100%; }
+      #novedades .novedadesCont1 .cardNew .cardBody {
+        position: absolute;
+        bottom: 0;
+        height: 150px;
+        background-color: #f1f1f1;
+        padding-left: .9375rem;
+        padding-right: .9375rem;
+        transform: translateY(100px);
+        -webkit-transition: all 0.3s ease;
+        -moz-transition: all 0.3s ease;
+        -ms-transition: all 0.3s ease;
+        -o-transition: all 0.3s ease;
+        transition: all 0.3s ease; }
+        #novedades .novedadesCont1 .cardNew .cardBody:after, #novedades .novedadesCont1 .cardNew .cardBody:before {
+          content: '';
+          display: block;
+          clear: both; }
+        #novedades .novedadesCont1 .cardNew .cardBody .cardTitleBody {
+          height: 50px;
+          display: flex;
+          align-items: center;
+          justify-content: flex-start; }
+          #novedades .novedadesCont1 .cardNew .cardBody .cardTitleBody h5 {
+            margin-bottom: 0px; }
+        #novedades .novedadesCont1 .cardNew .cardBody .cardTxt {
+          height: 100px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          text-align: justify; }
+          #novedades .novedadesCont1 .cardNew .cardBody .cardTxt p {
+            line-height: 1.1; }
+        #novedades .novedadesCont1 .cardNew .cardBody:hover {
+          transform: translateY(0px); } }
 
 /*# sourceMappingURL=app.css.map */
