@@ -1,0 +1,38 @@
+body{
+	background: #fff;
+}
+
+#redesTop{
+	article{
+		ul{
+			list-style: none;
+			margin-left: 0px;
+			margin-bottom: 0px;
+			li{
+				list-style: none;
+				display: inline-block;
+				a{
+					padding:10px 5px;
+					background-color: #272727;
+					color: #ffffff;
+				}
+			}
+		}
+	}
+}
+header#header{
+	.thumbPage{
+		width: 100%;
+		height: 100px;
+		display: flex;
+		item-align:center;
+		justify-content:center;
+		img{
+			max-width: 100px;
+			width: auto;
+		}
+	}
+}
+#slideClocks{
+	height: 300px;
+}
