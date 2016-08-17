@@ -258,4 +258,67 @@ header#header .thumbPage {
         #proDestacados .cardDest:hover .cardDestBody p {
           transform: translateX(0); } }
 
+#aboutMe {
+  padding-bottom: 25px;
+  padding-top: 25px;
+  background-color: #272727; }
+  #aboutMe:after, #aboutMe:before {
+    content: '';
+    display: block;
+    clear: both; }
+  #aboutMe .cardAboutMe .cardAboutHeader {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+    #aboutMe .cardAboutMe .cardAboutHeader .cardAboutThumb {
+      padding: 5px;
+      text-align: center; }
+      #aboutMe .cardAboutMe .cardAboutHeader .cardAboutThumb img {
+        display: inline-block;
+        max-width: 120px;
+        width: 50%;
+        height: auto;
+        text-align: center; }
+    #aboutMe .cardAboutMe .cardAboutHeader .cardAboutTxt {
+      padding-top: 10px; }
+      #aboutMe .cardAboutMe .cardAboutHeader .cardAboutTxt p {
+        font-size: 1rem;
+        color: #ffffff;
+        text-align: justify; }
+  #aboutMe .cardAboutMe .cardAboutBody .line {
+    display: block;
+    height: 3px;
+    background-color: red; }
+  #aboutMe .cardAboutMe .cardAboutBody ul {
+    margin-bottom: 0px;
+    margin-left: 0px;
+    list-style: none; }
+    #aboutMe .cardAboutMe .cardAboutBody ul li {
+      text-align: center;
+      height: 100px;
+      display: flex;
+      align-items: center;
+      justify-content: center; }
+      #aboutMe .cardAboutMe .cardAboutBody ul li a {
+        font-size: 2rem;
+        text-align: center;
+        color: #fff; }
+
+#blog {
+  padding-top: 25px;
+  padding-bottom: 25px; }
+  #blog:before, #blog:after {
+    content: '';
+    display: block;
+    clear: both; }
+  #blog .cardBlogPrincipal .cardBlogCont {
+    background-color: pink; }
+    #blog .cardBlogPrincipal .cardBlogCont:before, #blog .cardBlogPrincipal .cardBlogCont:after {
+      content: '';
+      display: block;
+      clear: both; }
+  #blog .cardBlogSecundario .cardBlogCont {
+    background-color: grey; }
+
 /*# sourceMappingURL=app.css.map */
