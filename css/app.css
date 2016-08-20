@@ -36,6 +36,11 @@ body {
     padding: 10px; }
     #redesTop article ul li a {
       color: #fff; }
+    #redesTop article ul li:nth-child(n+4) {
+      color: #272727;
+      background-color: transparent; }
+      #redesTop article ul li:nth-child(n+4) a {
+        color: #272727; }
 
 header#header:after, header#header:before {
   content: '';
@@ -235,22 +240,22 @@ header#header .thumbPage {
           margin-bottom: 0px;
           color: #ffffff;
           transform: translateX(-150%);
-          -webkit-transition: all 0.8s ease;
-          -moz-transition: all 0.8s ease;
-          -ms-transition: all 0.8s ease;
-          -o-transition: all 0.8s ease;
-          transition: all 0.8s ease; }
+          -webkit-transition: all 0.3s ease;
+          -moz-transition: all 0.3s ease;
+          -ms-transition: all 0.3s ease;
+          -o-transition: all 0.3s ease;
+          transition: all 0.3s ease; }
         #proDestacados .cardDest .cardDestBody p:nth-child(4),
         #proDestacados .cardDest .cardDestBody p:nth-child(5) {
           margin-bottom: 0px;
           color: #ffffff;
           text-align: center;
           transform: translateX(150%);
-          -webkit-transition: all 0.5s ease;
-          -moz-transition: all 0.5s ease;
-          -ms-transition: all 0.5s ease;
-          -o-transition: all 0.5s ease;
-          transition: all 0.5s ease; }
+          -webkit-transition: all 0.3s ease;
+          -moz-transition: all 0.3s ease;
+          -ms-transition: all 0.3s ease;
+          -o-transition: all 0.3s ease;
+          transition: all 0.3s ease; }
       #proDestacados .cardDest:hover .cardDestHeader .cardDestThumb img {
         transform: scale(1.3, 1.3); }
       #proDestacados .cardDest:hover .cardDestBody {
@@ -318,7 +323,71 @@ header#header .thumbPage {
       content: '';
       display: block;
       clear: both; }
+    #blog .cardBlogPrincipal .cardBlogCont .cardBLogHeader {
+      max-height: 350px;
+      overflow: hidden; }
+    #blog .cardBlogPrincipal .cardBlogCont .cardBlogBody .cardBlogTitle {
+      height: 80px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center; }
+      #blog .cardBlogPrincipal .cardBlogCont .cardBlogBody .cardBlogTitle h4 {
+        text-align: center;
+        font-weight: 700;
+        margin: 0px; }
+      #blog .cardBlogPrincipal .cardBlogCont .cardBlogBody .cardBlogTitle p {
+        text-align: center; }
+    #blog .cardBlogPrincipal .cardBlogCont .cardBlogBody .cardBlogTxt {
+      height: 80px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center; }
+      #blog .cardBlogPrincipal .cardBlogCont .cardBlogBody .cardBlogTxt p {
+        margin: 0px;
+        line-height: 1.3;
+        text-align: justify; }
   #blog .cardBlogSecundario .cardBlogCont {
     background-color: grey; }
+    #blog .cardBlogSecundario .cardBlogCont .cardBlogBody .cardBlogTitle {
+      height: 150px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center; }
+      #blog .cardBlogSecundario .cardBlogCont .cardBlogBody .cardBlogTitle h4 {
+        text-align: center;
+        font-weight: 700;
+        margin: 0px; }
+      #blog .cardBlogSecundario .cardBlogCont .cardBlogBody .cardBlogTitle p {
+        text-align: center; }
+    #blog .cardBlogSecundario .cardBlogCont .cardBlogBody .cardBlogTxt {
+      height: 150px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center; }
+      #blog .cardBlogSecundario .cardBlogCont .cardBlogBody .cardBlogTxt p {
+        margin: 0px;
+        line-height: 1.3; }
+
+footer {
+  position: relative;
+  padding-top: 40px;
+  padding-bottom: 20px; }
+  footer:after, footer:before {
+    content: '';
+    display: block;
+    clear: both; }
+  footer .paySection {
+    position: relative;
+    border-top: 3px solid #272727; }
+  footer .contactSection {
+    position: relative;
+    border-top: 3px solid #272727; }
+  footer .newSection {
+    position: relative;
+    border-top: 3px solid #272727; }
 
 /*# sourceMappingURL=app.css.map */

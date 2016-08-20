@@ -1,0 +1,23 @@
+footer{
+	position: relative;
+	padding-top: 40px;
+	padding-bottom: 20px;
+	&:after,
+	&:before{
+		content: '';
+		display: block;
+		clear: both;
+	}
+	.paySection{
+		position: relative;
+		border-top: 3px solid #272727;
+	}
+	.contactSection{
+		position: relative;
+		border-top: 3px solid #272727;
+	}
+	.newSection{
+		position: relative;
+		border-top: 3px solid #272727;
+	}
+}

@@ -1,0 +1,54 @@
+#redesTop{
+	// height: 30px;
+	&:after,
+	&:before{
+		content: '';
+		display: block;
+		clear: both;
+	}
+	article{
+		ul{
+			list-style: none;
+			margin-left: 0px;
+			margin-bottom: 0px;
+			li{
+				list-style: none;
+				display: inline-block;
+				background-color: #272727;
+				padding: 10px;
+				a{
+					color:#fff;
+				}
+				&:nth-child(n+4){
+				color:#272727;
+				background-color: transparent;
+				a{
+					color: #272727;
+				}
+			}
+			}
+			
+		}
+	}
+}
+header#header{
+	&:after,
+	&:before{
+		content: '';
+		display: block;
+		clear: both;
+	}
+	.thumbPage{
+		width: 100%;
+		height: 150px;
+		display: flex;
+		align-items:center;
+		justify-content:center;
+		border-top: 1px solid #272727;
+		border-bottom: 1px solid #272727;
+		img{
+			max-width: 100px;
+			width: auto;
+		}
+	}
+}
