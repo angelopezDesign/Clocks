@@ -59,7 +59,7 @@ header#header .thumbPage {
     width: auto; }
 
 #slideClocks {
-  padding-top: 50px;
+  padding-top: 20px;
   padding-bottom: 70px; }
   #slideClocks .swiper-container {
     height: 350px; }
@@ -168,7 +168,8 @@ header#header .thumbPage {
             flex-direction: column; }
             #novedades .novedadesCont2 .cardNew .cardBody .cardTitleBody h5 {
               margin-bottom: 0px;
-              font-weight: 700; }
+              font-weight: 700;
+              line-height: 1; }
             #novedades .novedadesCont2 .cardNew .cardBody .cardTitleBody p {
               font-size: 0.8rem;
               margin-bottom: 0px; }
@@ -383,11 +384,87 @@ footer {
   footer .paySection {
     position: relative;
     border-top: 3px solid #272727; }
+    footer .paySection .cardHowPay:after, footer .paySection .cardHowPay:before {
+      content: '';
+      display: block;
+      clear: both; }
+    footer .paySection .cardHowPay .cardHeadHowPay h3,
+    footer .paySection .cardHowPay .cardHeadHowPay h4 {
+      margin-bottom: 0px; }
+    footer .paySection .cardHowPay .cardHeadHowPay p {
+      line-height: 3;
+      text-align: center;
+      font-size: 2rem;
+      margin-bottom: 0px; }
+    footer .paySection .cardHowPay .cardBodyHowPay h3,
+    footer .paySection .cardHowPay .cardBodyHowPay h4 {
+      margin-bottom: 0px; }
+    footer .paySection .cardHowPay .cardBodyHowPay p {
+      margin-bottom: 0px; }
   footer .contactSection {
     position: relative;
     border-top: 3px solid #272727; }
+    footer .contactSection .cardContactS .logoDown {
+      text-align: center; }
+      footer .contactSection .cardContactS .logoDown img {
+        width: 100px; }
+    footer .contactSection .cardContactS p, footer .contactSection .cardContactS h4 {
+      text-align: center;
+      margin-bottom: 0px; }
+      footer .contactSection .cardContactS p a, footer .contactSection .cardContactS h4 a {
+        color: #272727; }
   footer .newSection {
     position: relative;
     border-top: 3px solid #272727; }
+    footer .newSection #formDown .contInput input,
+    footer .newSection #formDown .contInput textarea {
+      border: 0px;
+      border-bottom: 1px solid #EEEEEE;
+      box-shadow: 0px 0px 0px; }
+      footer .newSection #formDown .contInput input:focus,
+      footer .newSection #formDown .contInput textarea:focus {
+        border-bottom: 2px solid #272727; }
+    footer .newSection #formDown .contInput button {
+      display: block;
+      padding: 10px 5px;
+      width: 100%;
+      border: 2px solid #272727;
+      text-align: center;
+      background-color: transparent;
+      -webkit-transition: all 0.3s ease;
+      -moz-transition: all 0.3s ease;
+      -ms-transition: all 0.3s ease;
+      -o-transition: all 0.3s ease;
+      transition: all 0.3s ease; }
+      footer .newSection #formDown .contInput button:hover {
+        background-color: #272727;
+        color: #ffffff; }
+  footer .copyRigth {
+    padding-top: 40px; }
+    footer .copyRigth:after, footer .copyRigth:before {
+      content: '';
+      display: block;
+      clear: both; }
+    footer .copyRigth p {
+      text-align: center;
+      color: #999; }
+
+.swiper-container-horizontal > .swiper-pagination-bullets {
+  bottom: 20px !important;
+  left: 10px !important;
+  width: auto !important; }
+
+.swiper-pagination-bullet-active {
+  opacity: 1;
+  background: pink !important; }
+
+.swiper-pagination-bullet {
+  width: 20px !important;
+  height: 20px !important;
+  display: block !important;
+  border-radius: 100%; }
+
+.swiper-container-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet {
+  margin: 10px 0 !important; }
 
 /*# sourceMappingURL=app.css.map */
