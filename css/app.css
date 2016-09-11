@@ -41,7 +41,8 @@ body {
       color: #272727;
       background-color: transparent; }
       #redesTop article ul li:nth-child(n+4) a {
-        color: #272727; }
+        color: #272727;
+        font-size: 0.9rem; }
 
 header#header:after, header#header:before {
   content: '';
@@ -85,40 +86,44 @@ header#header .thumbPage {
         clear: both; }
       #novedades .novedadesCont1 .cardNew {
         background-color: rgba(50, 50, 50, 0.9); }
-        #novedades .novedadesCont1 .cardNew .cardHeader .cardThumb img {
-          width: 100%;
-          transform: scale(1, 1);
-          opacity: 0.5;
-          -webkit-transition: all 0.3s ease;
-          -moz-transition: all 0.3s ease;
-          -ms-transition: all 0.3s ease;
-          -o-transition: all 0.3s ease;
-          transition: all 0.3s ease; }
+        #novedades .novedadesCont1 .cardNew .cardHeader {
+          position: relative; }
+          #novedades .novedadesCont1 .cardNew .cardHeader .cardThumb {
+            overflow: hidden; }
+            #novedades .novedadesCont1 .cardNew .cardHeader .cardThumb p {
+              margin-bottom: 0rem; }
+            #novedades .novedadesCont1 .cardNew .cardHeader .cardThumb img {
+              width: 100%;
+              transform: scale(1, 1);
+              opacity: 0.5;
+              -webkit-transition: all 0.3s ease;
+              -moz-transition: all 0.3s ease;
+              -ms-transition: all 0.3s ease;
+              -o-transition: all 0.3s ease;
+              transition: all 0.3s ease;
+              transition-delay: 0.2s; }
         #novedades .novedadesCont1 .cardNew .cardBody {
           position: absolute;
           bottom: 10px;
-          background-color: #f1f1f1;
-          -webkit-transition: all 0.3s ease;
-          -moz-transition: all 0.3s ease;
-          -ms-transition: all 0.3s ease;
-          -o-transition: all 0.3s ease;
-          transition: all 0.3s ease; }
+          background-color: #f1f1f1; }
           #novedades .novedadesCont1 .cardNew .cardBody:after, #novedades .novedadesCont1 .cardNew .cardBody:before {
             content: '';
             display: block;
             clear: both; }
           #novedades .novedadesCont1 .cardNew .cardBody .cardTitleBody {
             padding: 0px 15px;
-            height: 100px;
+            height: 80px;
             display: flex;
             align-items: left;
             justify-content: center;
             flex-direction: column;
             line-height: 1; }
             #novedades .novedadesCont1 .cardNew .cardBody .cardTitleBody h5 {
+              font-family: 'Roboto' , sans-serif;
               margin-bottom: 0px;
+              font-style: italic;
               font-weight: 700;
-              color: #e7787e; }
+              color: #83191d; }
             #novedades .novedadesCont1 .cardNew .cardBody .cardTitleBody p {
               color: #272727;
               margin-bottom: 0px;
@@ -132,9 +137,9 @@ header#header .thumbPage {
             text-align: justify; }
             #novedades .novedadesCont1 .cardNew .cardBody .cardTxt p {
               line-height: 1.1; }
-        #novedades .novedadesCont1 .cardNew:hover .cardHeader .cardThumb img {
-          transform: scale(1.1, 1.1);
-          opacity: 1; }
+      #novedades .novedadesCont1:hover .cardNew .cardHeader .cardThumb img {
+        transform: scale(1.1, 1.1);
+        opacity: 1; }
     #novedades .novedadesCont2 {
       position: relative; }
       #novedades .novedadesCont2 .cardNew {
@@ -145,18 +150,21 @@ header#header .thumbPage {
         padding-right: 0;
         background-color: rgba(50, 50, 50, 0.88);
         box-shadow: 0px 3px 2px rgba(100, 100, 100, 0.5); }
-        #novedades .novedadesCont2 .cardNew .cardHeader .cardThumb {
-          overflow: hidden; }
-          #novedades .novedadesCont2 .cardNew .cardHeader .cardThumb img {
-            width: auto;
-            height: 250px;
-            transform: scale(1, 1);
-            opacity: 0.88;
-            -webkit-transition: all 0.3s ease;
-            -moz-transition: all 0.3s ease;
-            -ms-transition: all 0.3s ease;
-            -o-transition: all 0.3s ease;
-            transition: all 0.3s ease; }
+        #novedades .novedadesCont2 .cardNew .cardHeader {
+          position: relative; }
+          #novedades .novedadesCont2 .cardNew .cardHeader .cardThumb {
+            overflow: hidden; }
+            #novedades .novedadesCont2 .cardNew .cardHeader .cardThumb img {
+              width: auto;
+              height: 250px;
+              transform: scale(1, 1);
+              opacity: 0.88;
+              -webkit-transition: all 0.5s ease;
+              -moz-transition: all 0.5s ease;
+              -ms-transition: all 0.5s ease;
+              -o-transition: all 0.5s ease;
+              transition: all 0.5s ease;
+              transition-delay: 0.4s; }
         #novedades .novedadesCont2 .cardNew .cardBody {
           position: absolute;
           bottom: 10px;
@@ -174,19 +182,24 @@ header#header .thumbPage {
             justify-content: flex-start;
             flex-direction: column; }
             #novedades .novedadesCont2 .cardNew .cardBody .cardTitleBody h5 {
+              font-family: 'Roboto' , sans-serif;
               margin-bottom: 0px;
+              font-style: italic;
               font-weight: 700;
-              line-height: 1; }
+              color: #83191d; }
             #novedades .novedadesCont2 .cardNew .cardBody .cardTitleBody p {
               font-size: 0.8rem;
-              margin-bottom: 0px; }
+              color: #272727;
+              margin-bottom: 0px;
+              font-weight: 100;
+              font-family: 'Roboto' , sans-serif; }
         #novedades .novedadesCont2 .cardNew:hover .cardHeader .cardThumb img {
-          transform: scale(1.1, 1.1);
+          transform: scale(1.3, 1.3);
           opacity: 1; } }
 
 #proDestacados {
-  padding-top: 30px;
-  padding-bottom: 30px; }
+  padding-top: 80px;
+  padding-bottom: 80px; }
   #proDestacados:after, #proDestacados:before {
     content: "";
     display: block;
@@ -209,6 +222,8 @@ header#header .thumbPage {
         #proDestacados .cardDest .cardDestHeader .cardDestThumb {
           position: relative;
           height: 300px; }
+          #proDestacados .cardDest .cardDestHeader .cardDestThumb p {
+            margin-bottom: 0px; }
           #proDestacados .cardDest .cardDestHeader .cardDestThumb img {
             position: absolute;
             top: 0;
@@ -216,25 +231,31 @@ header#header .thumbPage {
             width: auto;
             height: 100%;
             z-index: 0;
-            transform: scale(1, 1);
-            -webkit-transition: all 0.3s ease;
-            -moz-transition: all 0.3s ease;
-            -ms-transition: all 0.3s ease;
-            -o-transition: all 0.3s ease;
-            transition: all 0.3s ease; }
+            transform: scale(1.3, 1.3);
+            -webkit-transition: all 0.5s ease-out;
+            -moz-transition: all 0.5s ease-out;
+            -ms-transition: all 0.5s ease-out;
+            -o-transition: all 0.5s ease-out;
+            transition: all 0.5s ease-out;
+            transition-delay: 0.4s; }
       #proDestacados .cardDest .cardDestBody {
         position: absolute;
         top: 0;
         left: 0;
         width: 100%;
-        height: 100%;
-        background-color: rgba(20, 20, 20, 0);
-        -webkit-transition: all 0.3s ease;
-        -moz-transition: all 0.3s ease;
-        -ms-transition: all 0.3s ease;
-        -o-transition: all 0.3s ease;
-        transition: all 0.3s ease;
-        padding: 20px; }
+        height: 300px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: rgba(131, 25, 29, 0.1);
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -ms-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+        transition-delay: 0.4s;
+        padding: 20px;
+        overflow: hidden; }
         #proDestacados .cardDest .cardDestBody h3 {
           color: #fff;
           font-weight: 700;
@@ -248,26 +269,34 @@ header#header .thumbPage {
           margin-bottom: 0px;
           color: #ffffff;
           transform: translateX(-150%);
-          -webkit-transition: all 0.3s ease;
-          -moz-transition: all 0.3s ease;
-          -ms-transition: all 0.3s ease;
-          -o-transition: all 0.3s ease;
-          transition: all 0.3s ease; }
+          -webkit-transition: all 0.5s ease;
+          -moz-transition: all 0.5s ease;
+          -ms-transition: all 0.5s ease;
+          -o-transition: all 0.5s ease;
+          transition: all 0.5s ease;
+          transition-delay: 0.4s; }
         #proDestacados .cardDest .cardDestBody p:nth-child(4),
         #proDestacados .cardDest .cardDestBody p:nth-child(5) {
           margin-bottom: 0px;
           color: #ffffff;
           text-align: center;
           transform: translateX(150%);
-          -webkit-transition: all 0.3s ease;
-          -moz-transition: all 0.3s ease;
-          -ms-transition: all 0.3s ease;
-          -o-transition: all 0.3s ease;
-          transition: all 0.3s ease; }
+          -webkit-transition: all 0.5s ease;
+          -moz-transition: all 0.5s ease;
+          -ms-transition: all 0.5s ease;
+          -o-transition: all 0.5s ease;
+          transition: all 0.5s ease;
+          transition-delay: 0.4s; }
+        #proDestacados .cardDest .cardDestBody .cardDestTxt a {
+          margin-top: 5px;
+          padding: 5px 10px;
+          color: #eeeeee;
+          border: 1px solid #eeeeee;
+          text-transform: uppercase; }
       #proDestacados .cardDest:hover .cardDestHeader .cardDestThumb img {
-        transform: scale(1.3, 1.3); }
+        transform: scale(1, 1); }
       #proDestacados .cardDest:hover .cardDestBody {
-        background-color: rgba(20, 20, 20, 0.88); }
+        background-color: rgba(131, 25, 29, 0.9); }
         #proDestacados .cardDest:hover .cardDestBody p {
           transform: translateX(0); } }
 
@@ -316,16 +345,17 @@ header#header .thumbPage {
       #aboutMe .cardAboutMe .cardAboutBody ul li a {
         font-size: 2rem;
         text-align: center;
-        color: #fff; }
+        color: #ba3f43; }
 
 #blog {
-  padding-top: 25px;
-  padding-bottom: 25px; }
+  padding-top: 70px;
+  padding-bottom: 70px; }
   #blog:before, #blog:after {
     content: '';
     display: block;
     clear: both; }
   #blog .cardBlogPrincipal .cardBlogCont {
+    position: relative;
     background-color: pink; }
     #blog .cardBlogPrincipal .cardBlogCont:before, #blog .cardBlogPrincipal .cardBlogCont:after {
       content: '';
@@ -333,52 +363,161 @@ header#header .thumbPage {
       clear: both; }
     #blog .cardBlogPrincipal .cardBlogCont .cardBLogHeader {
       max-height: 350px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
       overflow: hidden; }
-    #blog .cardBlogPrincipal .cardBlogCont .cardBlogBody .cardBlogTitle {
-      height: 80px;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center; }
-      #blog .cardBlogPrincipal .cardBlogCont .cardBlogBody .cardBlogTitle h4 {
-        text-align: center;
+      #blog .cardBlogPrincipal .cardBlogCont .cardBLogHeader .timeBlog {
+        position: absolute;
+        padding: 8px;
+        top: 0;
+        right: 0;
+        font-family: 'Roboto' , sans-serif;
         font-weight: 700;
-        margin: 0px; }
-      #blog .cardBlogPrincipal .cardBlogCont .cardBlogBody .cardBlogTitle p {
-        text-align: center; }
-    #blog .cardBlogPrincipal .cardBlogCont .cardBlogBody .cardBlogTxt {
-      height: 80px;
+        background-color: #f1f1f1; }
+      #blog .cardBlogPrincipal .cardBlogCont .cardBLogHeader .cardBlogThumb img {
+        width: 100%; }
+    #blog .cardBlogPrincipal .cardBlogCont .cardBlogBody {
+      padding-bottom: 15px;
+      padding-top: 15px;
+      display: -webkit-box;
+      display: -moz-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
       display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center; }
-      #blog .cardBlogPrincipal .cardBlogCont .cardBlogBody .cardBlogTxt p {
-        margin: 0px;
-        line-height: 1.3;
-        text-align: justify; }
-  #blog .cardBlogSecundario .cardBlogCont {
-    background-color: grey; }
+      -webkit-flex-flow: column;
+      justify-content: space-around; }
+      #blog .cardBlogPrincipal .cardBlogCont .cardBlogBody:after, #blog .cardBlogPrincipal .cardBlogCont .cardBlogBody:before {
+        content: '';
+        display: block;
+        clear: both; }
+      #blog .cardBlogPrincipal .cardBlogCont .cardBlogBody .cardBlogTitle {
+        padding-bottom: 10px;
+        font-weight: bold;
+        text-align: center; }
+        #blog .cardBlogPrincipal .cardBlogCont .cardBlogBody .cardBlogTitle h4 {
+          text-align: center;
+          font-weight: 700;
+          margin: 0px; }
+        #blog .cardBlogPrincipal .cardBlogCont .cardBlogBody .cardBlogTitle p {
+          text-align: center; }
+      #blog .cardBlogPrincipal .cardBlogCont .cardBlogBody .cardBlogTxt {
+        position: relative;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        font-weight: 300;
+        text-align: center; }
+        #blog .cardBlogPrincipal .cardBlogCont .cardBlogBody .cardBlogTxt p {
+          margin: 0px;
+          font-style: italic;
+          line-height: 1.3;
+          text-align: center; }
+      #blog .cardBlogPrincipal .cardBlogCont .cardBlogBody .cardBlogFooter {
+        position: relative;
+        text-align: center; }
+        #blog .cardBlogPrincipal .cardBlogCont .cardBlogBody .cardBlogFooter:after, #blog .cardBlogPrincipal .cardBlogCont .cardBlogBody .cardBlogFooter:before {
+          content: '';
+          display: block;
+          clear: both; }
+        #blog .cardBlogPrincipal .cardBlogCont .cardBlogBody .cardBlogFooter p {
+          margin: 0px;
+          line-height: 1.3; }
+        #blog .cardBlogPrincipal .cardBlogCont .cardBlogBody .cardBlogFooter p.enlaceBlog {
+          margin-top: 10px;
+          margin-bottom: 10px;
+          text-align: center; }
+          #blog .cardBlogPrincipal .cardBlogCont .cardBlogBody .cardBlogFooter p.enlaceBlog:after, #blog .cardBlogPrincipal .cardBlogCont .cardBlogBody .cardBlogFooter p.enlaceBlog:before {
+            content: '';
+            display: block;
+            clear: both; }
+          #blog .cardBlogPrincipal .cardBlogCont .cardBlogBody .cardBlogFooter p.enlaceBlog a {
+            display: inline-block;
+            padding: 7px;
+            color: #272727;
+            border: 2px solid #272727;
+            text-align: center;
+            -webkit-transition: all 0.3s ease-in;
+            -moz-transition: all 0.3s ease-in;
+            -ms-transition: all 0.3s ease-in;
+            -o-transition: all 0.3s ease-in;
+            transition: all 0.3s ease-in;
+            transition-delay: 0.5s; }
+            #blog .cardBlogPrincipal .cardBlogCont .cardBlogBody .cardBlogFooter p.enlaceBlog a:hover {
+              background-color: #272727;
+              color: #eeeeee; }
+        #blog .cardBlogPrincipal .cardBlogCont .cardBlogBody .cardBlogFooter p.postmetadata {
+          padding-top: 10px;
+          padding-bottom: 0px;
+          border-top: 1px solid #272727;
+          font-size: 0.8rem;
+          text-align: left;
+          font-weight: 300; }
+          #blog .cardBlogPrincipal .cardBlogCont .cardBlogBody .cardBlogFooter p.postmetadata:after, #blog .cardBlogPrincipal .cardBlogCont .cardBlogBody .cardBlogFooter p.postmetadata:before {
+            content: '';
+            display: block;
+            clear: both; }
+          #blog .cardBlogPrincipal .cardBlogCont .cardBlogBody .cardBlogFooter p.postmetadata a {
+            font-style: italic;
+            color: #83191d; }
+  #blog .cardBlogSecundario .cardBlogCont:after, #blog .cardBlogSecundario .cardBlogCont:before {
+    content: '';
+    display: block;
+    clear: both; }
+  #blog .cardBlogSecundario .cardBlogCont .cardBlogBody {
+    background-color: #f5fff5;
+    border-top: 1px solid #333333;
+    border-bottom: 1px solid #333333; }
+    #blog .cardBlogSecundario .cardBlogCont .cardBlogBody:after, #blog .cardBlogSecundario .cardBlogCont .cardBlogBody:before {
+      content: '';
+      display: block;
+      clear: both; }
     #blog .cardBlogSecundario .cardBlogCont .cardBlogBody .cardBlogTitle {
       height: 150px;
       display: flex;
       flex-direction: column;
       align-items: center;
-      justify-content: center; }
+      justify-content: space-around;
+      border-right: 1px solid #c4c3c3; }
       #blog .cardBlogSecundario .cardBlogCont .cardBlogBody .cardBlogTitle h4 {
         text-align: center;
         font-weight: 700;
         margin: 0px; }
       #blog .cardBlogSecundario .cardBlogCont .cardBlogBody .cardBlogTitle p {
         text-align: center; }
+        #blog .cardBlogSecundario .cardBlogCont .cardBlogBody .cardBlogTitle p.dateBlog002 {
+          font-size: 0.9rem; }
+        #blog .cardBlogSecundario .cardBlogCont .cardBlogBody .cardBlogTitle p a {
+          display: inline-block;
+          color: #e7787e;
+          padding: 5px;
+          border: 2px solid #e7787e;
+          -webkit-transition: all 0.3s ease-in;
+          -moz-transition: all 0.3s ease-in;
+          -ms-transition: all 0.3s ease-in;
+          -o-transition: all 0.3s ease-in;
+          transition: all 0.3s ease-in;
+          transition-delay: 0.5s; }
+          #blog .cardBlogSecundario .cardBlogCont .cardBlogBody .cardBlogTitle p a:hover {
+            background-color: #e7787e;
+            color: #f1f1f1; }
     #blog .cardBlogSecundario .cardBlogCont .cardBlogBody .cardBlogTxt {
       height: 150px;
       display: flex;
       flex-direction: column;
       align-items: center;
-      justify-content: center; }
+      justify-content: space-around; }
+      #blog .cardBlogSecundario .cardBlogCont .cardBlogBody .cardBlogTxt h4 {
+        font-weight: 700; }
       #blog .cardBlogSecundario .cardBlogCont .cardBlogBody .cardBlogTxt p {
         margin: 0px;
         line-height: 1.3; }
+        #blog .cardBlogSecundario .cardBlogCont .cardBlogBody .cardBlogTxt p:nth-child(2n+1) {
+          font-size: 0.9rem;
+          text-align: center; }
+          #blog .cardBlogSecundario .cardBlogCont .cardBlogBody .cardBlogTxt p:nth-child(2n+1) a {
+            font-size: 0.8rem;
+            font-style: italic;
+            color: #e7787e; }
 
 footer {
   position: relative;
@@ -442,7 +581,8 @@ footer {
       -moz-transition: all 0.3s ease;
       -ms-transition: all 0.3s ease;
       -o-transition: all 0.3s ease;
-      transition: all 0.3s ease; }
+      transition: all 0.3s ease;
+      transition-delay: 0.4s; }
       footer .newSection #formDown .contInput button:hover {
         background-color: #272727;
         color: #ffffff; }
