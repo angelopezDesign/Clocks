@@ -93,18 +93,24 @@
 						clear: both;
 					}
 					.cardTitleBody{
-						height: 50px;
+						padding: 0px 15px;
+						height: 100px;
 						// outline: 1px solid red;
 						display: flex;
-						align-items:center;
-						justify-content:flex-start;
+						align-items:left;
+						justify-content:center;
 						flex-direction:column;
+						line-height: 1;
 						h5{
 							margin-bottom: 0px;
 							font-weight: 700;
+							color:#e7787e;
 						}
 						p{
+							color: #272727;
 							margin-bottom: 0px;
+							font-weight: 100;
+							font-family: 'Roboto' , sans-serif;
 						}
 					}
 					.cardTxt{

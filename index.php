@@ -4,10 +4,10 @@
 		        <div class="swiper-wrapper">
 		            <div class="swiper-slide">
 		            	<picture>
-		            		<source srcset="recursos/img/slide/clocks003.jpg" media="min-width 1200px">
-		            		<source srcset="recursos/img/slide/clocks003.jpg" media="min-width 768px">
-		            		<source srcset="recursos/img/slide/clocks003.jpg" media="min-width 320px">
-		            		<img src="recursos/img/slide/clocks003.jpg" alt="accesorios">
+		            		<source srcset="recursos/img/slide/clocks008.jpg" media="min-width 1200px">
+		            		<source srcset="recursos/img/slide/clocks008.jpg" media="min-width 768px">
+		            		<source srcset="recursos/img/slide/clocks008.jpg" media="min-width 320px">
+		            		<img src="recursos/img/slide/clocks008.jpg" alt="accesorios">
 		            	</picture>
 		            </div>
 		            <div class="swiper-slide">

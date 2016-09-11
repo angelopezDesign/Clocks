@@ -1,5 +1,6 @@
+@import "https://fonts.googleapis.com/css?family=Roboto";
 body {
-  background: #fff; }
+  background: #ffffff; }
 
 /**Estilos globales***/
 .title {
@@ -32,7 +33,7 @@ body {
   #redesTop article ul li {
     list-style: none;
     display: inline-block;
-    background-color: #272727;
+    background-color: #272721;
     padding: 10px; }
     #redesTop article ul li a {
       color: #fff; }
@@ -107,16 +108,22 @@ header#header .thumbPage {
             display: block;
             clear: both; }
           #novedades .novedadesCont1 .cardNew .cardBody .cardTitleBody {
-            height: 50px;
+            padding: 0px 15px;
+            height: 100px;
             display: flex;
-            align-items: center;
-            justify-content: flex-start;
-            flex-direction: column; }
+            align-items: left;
+            justify-content: center;
+            flex-direction: column;
+            line-height: 1; }
             #novedades .novedadesCont1 .cardNew .cardBody .cardTitleBody h5 {
               margin-bottom: 0px;
-              font-weight: 700; }
+              font-weight: 700;
+              color: #e7787e; }
             #novedades .novedadesCont1 .cardNew .cardBody .cardTitleBody p {
-              margin-bottom: 0px; }
+              color: #272727;
+              margin-bottom: 0px;
+              font-weight: 100;
+              font-family: 'Roboto' , sans-serif; }
           #novedades .novedadesCont1 .cardNew .cardBody .cardTxt {
             height: 100px;
             display: flex;
