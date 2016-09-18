@@ -614,4 +614,194 @@ footer {
 .swiper-container-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet {
   margin: 10px 0 !important; }
 
+.postThumbCont {
+  position: relative; }
+  .postThumbCont .postThumb {
+    position: relative;
+    height: 500px;
+    display: flex;
+    display: -webkit- flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    background-color: #f1f1f1; }
+    .postThumbCont .postThumb img {
+      display: block;
+      width: 100%;
+      opacity: 0.88;
+      transform: scale(1.2);
+      -webkit-transition: all 0.3s ease;
+      -moz-transition: all 0.3s ease;
+      -ms-transition: all 0.3s ease;
+      -o-transition: all 0.3s ease;
+      transition: all 0.3s ease;
+      transition-delay: 0.3s; }
+    .postThumbCont .postThumb:hover img {
+      opacity: 1;
+      transform: scale(1); }
+  .postThumbCont .btnBigThumb {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 50px;
+    height: 50px;
+    border: 3px solid #272727;
+    display: flex;
+    display: -webkit- flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+    background-color: rgba(255, 255, 255, 0.63);
+    cursor: pointer;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    transition-delay: 0.3s; }
+    .postThumbCont .btnBigThumb i {
+      color: #272727;
+      font-size: 1.5rem;
+      -webkit-transition: all 0.3s ease;
+      -moz-transition: all 0.3s ease;
+      -ms-transition: all 0.3s ease;
+      -o-transition: all 0.3s ease;
+      transition: all 0.3s ease;
+      transition-delay: 0.3s; }
+    .postThumbCont .btnBigThumb:hover {
+      border-color: #e7787e;
+      background-color: #e7787e; }
+      .postThumbCont .btnBigThumb:hover i {
+        color: #ffffff; }
+
+.comentariosCard {
+  border-top: 1px solid #333333;
+  padding-top: 20px; }
+  .comentariosCard:after, .comentariosCard:before {
+    content: '';
+    display: block;
+    clear: both; }
+  .comentariosCard #comments {
+    color: #333333;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700; }
+  .comentariosCard ol.commentlist {
+    list-style: none;
+    margin-left: 0px; }
+    .comentariosCard ol.commentlist li.comment {
+      display: block; }
+      .comentariosCard ol.commentlist li.comment .comment-body .comment-author img,
+      .comentariosCard ol.commentlist li.comment .comment-body .comment-author .fn {
+        display: inline-block; }
+      .comentariosCard ol.commentlist li.comment .comment-body .comment-author .fn {
+        padding: 0px 5px; }
+      .comentariosCard ol.commentlist li.comment .comment-body .commentmetadata {
+        padding-top: 10px;
+        padding-bottom: 10px; }
+        .comentariosCard ol.commentlist li.comment .comment-body .commentmetadata:after, .comentariosCard ol.commentlist li.comment .comment-body .commentmetadata:before {
+          content: '';
+          display: block;
+          clear: both; }
+        .comentariosCard ol.commentlist li.comment .comment-body .commentmetadata a {
+          font-family: 'Roboto' , sans-serif;
+          font-size: 1rem;
+          font-weight: 300;
+          color: #e7787e; }
+        .comentariosCard ol.commentlist li.comment .comment-body .commentmetadata .comment-edit-link {
+          font-weight: 700; }
+      .comentariosCard ol.commentlist li.comment .comment-body p {
+        padding: 7px;
+        font-size: 1.1rem;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 300;
+        background-color: #eee; }
+      .comentariosCard ol.commentlist li.comment .comment-body .reply {
+        padding-top: 10px;
+        padding-bottom: 10px; }
+        .comentariosCard ol.commentlist li.comment .comment-body .reply:after, .comentariosCard ol.commentlist li.comment .comment-body .reply:before {
+          content: '';
+          display: block;
+          clear: both; }
+        .comentariosCard ol.commentlist li.comment .comment-body .reply a {
+          padding: 7px;
+          border: 2px solid #272727;
+          color: #272727;
+          font-family: 'Roboto', sans-serif;
+          font-weight: 400;
+          background-color: transparent;
+          -webkit-transition: all 0.3s ease;
+          -moz-transition: all 0.3s ease;
+          -ms-transition: all 0.3s ease;
+          -o-transition: all 0.3s ease;
+          transition: all 0.3s ease;
+          transition-delay: 0.3s; }
+          .comentariosCard ol.commentlist li.comment .comment-body .reply a:hover {
+            color: #ffffff;
+            border: 2px solid #83191d;
+            background-color: #83191d; }
+  .comentariosCard #respond {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-top: 2px solid #272727; }
+    .comentariosCard #respond #reply-title {
+      color: #333333;
+      font-family: 'Roboto',sans-serif;
+      font-weight: 300;
+      text-transform: uppercase; }
+      .comentariosCard #respond #reply-title small a {
+        color: #eee; }
+    .comentariosCard #respond #commentform {
+      width: 100%; }
+      .comentariosCard #respond #commentform:after, .comentariosCard #respond #commentform:before {
+        content: '';
+        display: block;
+        clear: both; }
+      .comentariosCard #respond #commentform .logged-in-as {
+        margin: 0px;
+        padding-top: 10px;
+        padding-bottom: 10px; }
+        .comentariosCard #respond #commentform .logged-in-as a {
+          color: #e7787e;
+          font-weight: 300; }
+          .comentariosCard #respond #commentform .logged-in-as a:nth-child(2) {
+            font-weight: 700; }
+      .comentariosCard #respond #commentform .comment-form-comment {
+        width: 100%; }
+        .comentariosCard #respond #commentform .comment-form-comment:after, .comentariosCard #respond #commentform .comment-form-comment:before {
+          content: '';
+          display: block;
+          clear: both; }
+        .comentariosCard #respond #commentform .comment-form-comment label {
+          text-transform: uppercase; }
+        .comentariosCard #respond #commentform .comment-form-comment textarea {
+          width: 1005;
+          min-height: 150px;
+          height: 150px;
+          max-height: 200px;
+          border: 0px;
+          border-bottom: 2px solid #272727;
+          box-shadow: inset 0 1px 2px rgba(10, 10, 10, 0.1); }
+          .comentariosCard #respond #commentform .comment-form-comment textarea:focus {
+            box-shadow: inset 0 1px 2px rgba(10, 10, 10, 0.5); }
+      .comentariosCard #respond #commentform .form-submit input {
+        margin: auto;
+        padding: 7px;
+        border: 2px solid #272727;
+        background-color: transparent;
+        color: #272727;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 300;
+        text-transform: uppercase;
+        text-align: center;
+        -webkit-transition: all 0.3s ease;
+        -moz-transition: all 0.3s ease;
+        -ms-transition: all 0.3s ease;
+        -o-transition: all 0.3s ease;
+        transition: all 0.3s ease;
+        transition-delay: 0.2s; }
+        .comentariosCard #respond #commentform .form-submit input:hover {
+          background-color: #83191d;
+          border: 2px solid #83191d;
+          color: #fff; }
+
 /*# sourceMappingURL=app.css.map */

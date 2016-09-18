@@ -6,3 +6,7 @@
 	transition: $how $time $speed;
 	transition-delay: $delay;
 }
+@mixin flexBoxDisplay($displayF){
+	display: $displayF;
+	display: -webkit-$displayF;
+}
