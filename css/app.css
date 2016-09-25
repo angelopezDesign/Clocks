@@ -804,4 +804,60 @@ footer {
           border: 2px solid #83191d;
           color: #fff; }
 
+#listCategories:after, #listCategories:before {
+  content: '';
+  display: block;
+  clear: both; }
+#listCategories .cardBlogSecundario {
+  padding-top: 30px;
+  padding-bottom: 30px; }
+  #listCategories .cardBlogSecundario:after, #listCategories .cardBlogSecundario:before {
+    content: '';
+    display: block;
+    clear: both; }
+  #listCategories .cardBlogSecundario .cardBlogCont {
+    padding-right: 0px;
+    padding-left: 0px;
+    position: relative;
+    background-color: #f8f8f8; }
+    #listCategories .cardBlogSecundario .cardBlogCont .cardBlogThumb {
+      height: 150px;
+      display: flex;
+      display: -webkit- flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden; }
+      #listCategories .cardBlogSecundario .cardBlogCont .cardBlogThumb .tumbnailCont img {
+        filter: grayscale(0) blur(0px);
+        transform: scale(1.1);
+        -webkit-transition: all 0.3s ease;
+        -moz-transition: all 0.3s ease;
+        -ms-transition: all 0.3s ease;
+        -o-transition: all 0.3s ease;
+        transition: all 0.3s ease;
+        transition-delay: 0s; }
+        #listCategories .cardBlogSecundario .cardBlogCont .cardBlogThumb .tumbnailCont img:hover {
+          filter: grayscale(0.5) blur(7px);
+          transform: scale(1); }
+    #listCategories .cardBlogSecundario .cardBlogCont .cardBlogBody .cardBlogTxt h4 {
+      text-align: center;
+      font-weight: 700; }
+    #listCategories .cardBlogSecundario .cardBlogCont .cardBlogBody .cardBlogTxt p {
+      font-family: 'Roboto', sans-serif;
+      font-size: 1rem;
+      line-height: 1; }
+      #listCategories .cardBlogSecundario .cardBlogCont .cardBlogBody .cardBlogTxt p:nth-child(4) {
+        margin-bottom: 0px;
+        text-align: center; }
+      #listCategories .cardBlogSecundario .cardBlogCont .cardBlogBody .cardBlogTxt p a {
+        text-align: center; }
+    #listCategories .cardBlogSecundario .cardBlogCont .cardBlogFooter .postmetadata {
+      margin-bottom: 0px;
+      text-align: center;
+      font-size: 0.9rem;
+      color: #333333; }
+      #listCategories .cardBlogSecundario .cardBlogCont .cardBlogFooter .postmetadata a {
+        color: #000;
+        font-weight: 700; }
+
 /*# sourceMappingURL=app.css.map */
